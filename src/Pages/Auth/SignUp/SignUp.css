@@ -1,0 +1,81 @@
+.sign-up-container {
+    /* margin-top: 20px; */
+    background-image: url(https://red-onion-restaura.firebaseapp.com/static/media/signup-bg.a5fdc065.png);
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    background-position: center; 
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;  
+    overflow: hidden;
+}
+
+.register-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.register-logo {
+    text-align: center;
+}
+
+.register-logo > img {
+    width: 250px;
+}
+
+.form-container {
+    margin-top: 25px;
+}
+
+.form-container > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container > form > .input-field {
+    border: 0;
+    outline: 0;
+    width: 40%;
+    padding: 15px 15px ;
+    margin-top: 25px;
+    background-color: #f5f5f5;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius:5px ;
+    font-style: italic;
+}
+
+.form-container > form > .submit-field {
+    border: 0;
+    outline: 0;
+    width: 43%;
+    padding: 15px 15px ;
+    margin-top: 25px;
+    border-radius:5px ;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+
+.link-text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form-container > .link-text > a {
+    text-align: center;
+    color: #dc3545;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.foods-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.selected-items-container {
+    margin-top: 30px;
+}
+
+.selected-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-items li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.foods-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    place-items: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,190 @@
+.checkout-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    /* place-items: center; */
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.details-container-header {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.details-container-header > div {
+    width: 90%;
+    border: 0.5px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.user-details-container > form > input {
+    display: block;
+}
+
+.input-text-delivery {
+    width: 80%;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    outline: 0;
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.user-details-container form  textarea {
+    width: 80%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    outline: 0;
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    resize: none;
+    font-size: 15px;
+}
+
+.save-and-continue{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    outline: 0;
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #dc3545;
+    color: white;
+    width: 87%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.order-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.order-item-img > img {
+    width: 100px;
+}
+
+.order-item-names > h3{
+    margin: 0;
+    /* margin-bottom: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.order-item-names > h4{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+
+.order-item-names > p {
+    margin: 0;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.quantity-isAdd {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-details > h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.shop-details > h1 > span {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.shop-details > h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.total-price {
+    margin-top: 30px;
+    border-top: 2px solid lightgray;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.price-container > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.quantity-isAdd > button {
+    border: 0;
+    outline: 0;
+    padding: 5px 5px;
+    margin-bottom:5px ;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nothingToCheckOut-container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nothingToCheckOut {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    outline: 0;
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #dc3545;
+    color: white;
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
